@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>lin-jinwei.github.io</title>
+</head>
+
+<body>
+    <div class="top">
+        <h1 class="center">OneTo3D</h1>
+        <h1 class="center">OneTo3D: One Image to Editable Dynamic 3D Model and Video Generation</h1>
+      </div>
+    <p><a href="https://lin-jinwei.github.io">lin-jinwei.github.io</a></p>
+    
+    <hr width="100%" />
+    
+    <div  style="display:flex; justify-content:center;">
+        <img src="./imgs/OneTo3D.png" width="600px" style="margin: 0 auto;">
+    </div>
+    
+
+    <div class="content">
+        <div class="headline">
+            <b>Links</b>
+        </div>
+        <br>
+        <br>
+        
+        <div class="projects">
+            OneTo3D: <a href="https://github.com/lin-jinwei/OneTo3D">GitHub Code</a> &nbsp;&nbsp;&nbsp; <a href="https://lin-jinwei.github.io/projects/OneTo3D/OneTo3D.html">Project Page</a> 
+        </div>
+
+        <br>
+        <br>
+
+        <div class="headline">
+            <b>Example</b>
+        </div>
+        <br>
+        <br>
+        
+        1. Input Text Code:
+        <div class="code">
+            The object moves 2 miles in x direction, moves 2 miles in -x direction.
+        </div>
+
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v1.mkv" type="video/mp4"></source>
+        </video>
+
+        
+        <!-- =============================== -->
+        <br>
+        <br>
+        2. Input Text Code:
+        <div class="code">
+            The object moves 2 miles in x direction, moves 2 miles in -x direction, then moved 3 miles in y direction, moving 1 miles in -z direction, then moved 5 miles in -y direction, moving 1 miles in z direction.
+        </div>
+
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v2.mkv" type="video/mp4"></source>
+        </video>
+
+        
+        <!-- =============================== -->
+        <br>
+        <br>
+        3. Input Text Code:
+        <div class="code">
+            The object raises his head, then bowed his head, then raises his head, then bowed his head.
+        </div>
+
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v3.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        4. Input Text Code:
+        <div class="code">
+            The object raises his head 80 degrees, then bowed his head 30 degrees, then raises his head 10 degrees, then bowed his head 50 degrees.
+        </div>
+
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v4.mkv" type="video/mp4"></source>
+        </video>
+
+
+        
+        <!-- =============================== -->
+        <br>
+        <br>
+        5. Input Text Code:
+        <div class="code">
+            The object raises his head 20.12 degrees and shakes his head 60 degrees.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v10.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        6. Input Text Code:
+        <div class="code">
+            The object looks left, looks right, looks left 22.33 degrees, looks right 22.33 degrees, raises his head 20.12 degrees and shakes his head 60 degrees.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v11.mkv" type="video/mp4"></source>
+        </video>
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        7. Input Text Code:
+        <div class="code">
+           Big: The object walked 2 steps times and ran 3 steps times seconds to the car.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v5.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        8. Input Text Code:
+        <div class="code">
+            The object walked 10 steps times, raises his head 60 degrees, and ran 10 steps times seconds, bowed his head 80 degrees, then walkes 10 steps.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v6.mkv" type="video/mp4"></source>
+        </video>
+ 
+        
+        <!-- =============================== -->
+        <br>
+        <br>
+        9. Input Text Code:
+        <div class="code">
+            The object walked 2 steps times, moves 3 miles in -y direction, and ran 3 steps times seconds, following moves 2 miles in y direction.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v7.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        10. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, moves 3 miles in -y direction, and ran 3 steps times seconds, following moves 2 miles in y direction. Then turns left, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, following moves 2 miles in y direction.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v8.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        11. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, moves 3 miles in -y direction, and ran 3 steps times seconds, following moves 2 miles in y direction. Then turns left, moves 3 miles in x direction, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, following moves 2 miles in y direction.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v9.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        12. Input Text Code:
+        <div class="code">
+            The object raised his left hand, raises his right hand, puts down his left hand, puts down his right hand, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v12.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        13. Input Text Code:
+        <div class="code">
+            The object raised his left hand, raises his right hand, puts down his left hand, puts down his right hand,  puts down his left hand 88 degrees, puts down his right hand 88 degrees, raising his left hand 118 degrees, raised his right hand 118 degrees, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v13.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        14. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, raised his left hand, moves 3 miles in -y direction, puts down his left hand, and ran 3 steps times seconds, raises his right hand 60 degrees, following moves 2 miles in y direction, puts down his right hand 88 degrees, then turns left, moves 3 miles in x direction, raising his left hand 20 degrees, raised his right hand 20 degrees, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, following moves 2 miles in y direction.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v14.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        15. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, raised his left hand, raises his right hand 30 degrees, moves 3 miles in -y direction, raises his head 30 degrees, bowed his head 20 degrees, puts down his left hand, puts down his right hand 10 degrees, and ran 3 steps times seconds, following moves 2 miles in y direction, puts down his right hand 88 degrees, then turns left, moves 3 miles in x direction, raising his left hand 20 degrees, raised his right hand 20 degrees, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, puts down his left hand 60 degrees, puts down his right hand 10 degrees, following moves 2 miles in y direction.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v15.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        16. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, raised his left hand, raises his right hand 30 degrees, moves 3 miles in -y direction, raises his head 30 degrees, bowed his head 20 degrees, puts down his left hand, puts down his right hand 10 degrees, and ran 3 steps times seconds, following moves 2 miles in y direction, puts down his right hand 88 degrees, then turns left, moves 3 miles in x direction, looks left, looks right, raising his left hand 20 degrees, raised his right hand 20 degrees, looks right 22.33 degrees, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, puts down his left hand 60 degrees, puts down his right hand 10 degrees, following moves 2 miles in y direction.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v16.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        17. Input Text Code:
+        <div class="code">
+            The object lifts his left leg, puts down his left leg, lifts his right leg, puts down his right leg, going
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v17.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        18. Input Text Code:
+        <div class="code">
+            The object lifts his left leg, puts down his left leg, lifts his right leg, puts down his right leg, puting down his right leg, putting down his left leg 60 degrees, lifts his left leg 60 degrees, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v18.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        19. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, raised his left hand, raises his right hand 30 degrees, moves 3 miles in -y direction, raises his head 30 degrees, bowed his head 20 degrees, puts down his left hand, puts down his right hand 10 degrees, and ran 3 steps times seconds, following moves 2 miles in y direction, puts down his right hand 88 degrees, puts down his left hand 88 degrees, then turns left, moves 3 miles in x direction, looks left, looks right, raising his left hand 20 degrees, raised his right hand 20 degrees, looks right 22.33 degrees, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, puts down his left hand 60 degrees, puts down his right hand 10 degrees, following moves 2 miles in y direction. Then the object lifts his left leg, puts down his left leg, lifts his right leg, puts down his right leg, puting down his right leg, putting down his left leg 60 degrees, lifts his left leg 60 degrees, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v19.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        20. Input Text Code:
+        <div class="code">
+            The object raises his left forearm, raises his right forearm, puts down his left forearm, puts down his right forearm going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v20.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        21. Input Text Code:
+        <div class="code">
+            The object raises his left forearm, raises his right forearm, puts down his left forearm, puts down his right forearm going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v21.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        22. Input Text Code:
+        <div class="code">
+            The object puts down his left calf 60 degrees, lifts his left calf 60 degrees, puts down his right calf 60 degrees, lifts his right calf 60 degrees, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v22.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        23. Input Text Code:
+        <div class="code">
+            The object lifts his left leg 0 degrees,, lifts his left leg, puts down his left calf 60 degrees, lifts his left calf 60 degrees, puts down his right calf 60 degrees, lifts his right calf 60 degrees, puts down his left leg, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v23.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        24. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, raised his left hand, raises his right hand 30 degrees, moves 3 miles in -y direction, raises his head 30 degrees, bowed his head 20 degrees, puts down his left hand, puts down his right hand 10 degrees, and ran 3 steps times seconds, following moves 2 miles in y direction, puts down his right hand 88 degrees, puts down his left hand 88 degrees, then turns left, moves 3 miles in x direction, looks left, looks right, raising his left hand 60 degrees, raised his right hand 20 degrees, looks right 22.33 degrees, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, puts down his left hand 60 degrees, puts down his right hand 10 degrees, following moves 2 miles in y direction. Then the object lifts his left leg, puts down his left leg, lifts his right leg, puts down his right leg, puting down his right leg, putting down his left leg 60 degrees, lifts his left leg 10 degrees. Then The object lifts his left leg 0 degrees, lifts his left leg, puts down his left calf 60 degrees, lifts his left calf 60 degrees, puts down his right calf 60 degrees, lifts his right calf 60 degrees, puts down his left leg, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v24.mkv" type="video/mp4"></source>
+        </video>
+
+
+        <!-- =============================== -->
+        <br>
+        <br>
+        25. Input Text Code:
+        <div class="code">
+            The object walked 2 steps or times, then turns left 0 degrees, raised his left hand, raises his right hand 30 degrees, moves 3 miles in -y direction, raises his head 30 degrees, bowed his head 20 degrees, puts down his left hand, puts down his right hand 10 degrees, and ran 3 steps times seconds, following moves 2 miles in y direction, puts down his right hand 88 degrees, puts down his left hand 88 degrees, then turns left, moves 3 miles in x direction, looks left, looks right, raising his left hand 60 degrees, raised his right hand 20 degrees, looks right 22.33 degrees, walked 2 steps or times, moves 3 miles in -y direction, and ran 3 steps times seconds, puts down his left hand 60 degrees, puts down his right hand 10 degrees, following moves 2 miles in y direction. Then the object lifts his left leg, puts down his left leg, lifts his right leg, puts down his right leg, puting down his right leg, putting down his left leg 60 degrees, lifts his left leg 10 degrees. Then The object lifts his left leg 0 degrees, lifts his left leg, puts down his left calf 60 degrees, lifts his left calf 60 degrees, puts down his right calf 60 degrees, lifts his right calf 60 degrees, puts down his left leg, moves 3 miles in -x direction, run in 5 miles, raised his left hand 60 degrees, waves his left hand, waves his left forearm, going.
+        </div>
+ 
+        Output Dynamic 3D:
+        <br>
+        <video style="margin-top: 10px;" muted autoplay="autoplay" loop="loop" width="600px">
+            <source src="./videos/v25.mkv" type="video/mp4"></source>
+        </video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+    </div>
+    
+
+    <br>
+    <br>
+    <br>
+
+    
+
+</body>
+
+<style>
+    .center {
+        text-align: center;
+        background-color:rgba(182, 222, 239, 0.666)
+    }
+    .top {
+        background-color: rgba(192, 220, 220, 0.333);
+        border-radius: 10px;
+    }
+
+    .headline{
+        background-color: rgb(75, 255, 102);
+        margin: 0 auto;
+        width:fit-content;
+        float: left;
+        padding: 5px;
+    }
+
+    .projects{
+        text-align: left;
+    }
+
+    .content{
+        width: 80%;
+        margin: auto;
+        background-color: rgba(222, 227, 223, 0.188);
+    }
+
+    .code{
+        background-color: rgba(2, 22, 66, 0.831);
+        padding: 5px;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+</style>
+
+</html>
